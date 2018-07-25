@@ -17,6 +17,29 @@ Use `fc-match "Courier New"` to check which font is the best match for a given n
 
 Other applications may have their own conventions for X11 and Xft font names. E.g. the same `xft:` prefix is used by emacs; xterm uses `faceName` and `renderFont` resources to determine whether to use Xft and which font to request; `xedit` supports core protocol only. The mere fact that the application is configurable from X resources isn't enough to tell how the font names are interpreted.
 
+## Powerline fonts
+
+For have some font symbols in some applications such as *vim airline*, powerline fonts are required. We can install these fonts by first cloning the following repository:
+
+```
+git clone https://github.com/powerline/fonts.git
+```
+
+And then executing the installation script inside the `fonts` directory, `install.sh`, which copies the font files into a local directory and then updates the font cache:
+
+```
+cd fonts
+./install.sh
+```
+
+## .XResources
+
+Add the following line to specify that the `urxvt` terminal will use the default `fixed` font as the main font, and the *Terminess* font as a fallback whenever a symbol is not present in the `fixed` font.
+
+```
+urxvt*font: fixed,xft:xos4 Terminess Powerline
+```
+
 ## Check if urxvt terminal supports Xft
 
 ```
