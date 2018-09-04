@@ -1,4 +1,4 @@
-### Fonts in Linux
+# Fonts in Linux
 
 ## Font rendering protocol
 
