@@ -1,4 +1,4 @@
-### How to create a bootable USB from an ISO file
+# How to create a bootable USB from an ISO file
 
 ## Command
 
