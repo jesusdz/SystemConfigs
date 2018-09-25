@@ -4,7 +4,7 @@ Installation Guide of Python 2.7.9 for Augmented Reality lab sessions.
 
 ## On Windows
 
-### Download and install Python 2.7.0
+### Download and install Python 2.7.9
 
 From [here](https://www.python.org/downloads/release/python-279). You can try to install python in the user filesystem to avoid having to deal with administrator permissions.
 
@@ -29,7 +29,7 @@ python.exe -m pip install matplotlib
 
 Download OpenCV from [here](https://sourceforge.net/projects/opencvlibrary/files/opencv-win).
 
-Copy the file at 'opencv\build\python\2.7\x86\cv2.yd' into the Python directory 'Python2.7.9\Lib\site-packages'.
+Copy the file at `opencv\build\python\2.7\x86\cv2.yd` into the Python directory `Python2.7.9\Lib\site-packages`.
 
 ### That's all
 
