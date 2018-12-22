@@ -45,3 +45,21 @@ urxvt*font: fixed,xft:xos4 Terminess Powerline
 ```
 urxvt --help 2>&1 | grep options
 ```
+
+## Some good proportional (non-fixed) bitmap fonts
+
+If we invoke the command *xfontsel* you can find some good bitmap proportional fonts such as:
+```
+-*-helvetica-medium-r-*-*-8-*-*-*-*-*-*-*                                                                 
+-*-helvetica-bold-r-*-*-8-*-*-*-*-*-*-*                                                                                                                                                                             
+-*-helvetica-medium-r-*-*-10-*-*-*-*-*-*-*                                                                
+-*-helvetica-bold-r-*-*-10-*-*-*-*-*-*-*                                                                  
+-*-helvetica-medium-r-*-*-12-*-*-*-*-*-*-*                                                                
+-*-helvetica-bold-r-*-*-12-*-*-*-*-*-*-*                                                                  
+-*-helvetica-medium-r-*-*-14-*-*-*-*-*-*-*                                                                
+-*-helvetica-bold-r-*-*-14-*-*-*-*-*-*-*  
+```
+
+Specifically, these fonts are placed under the directory */usr/shared/fonts/75dpi*. They have the prefix *helv* and the extension *.pcf.gz*.
+
+To convert them to TrueType fonts we can use an online font conversor.
